@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resolução de equações</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="script.js"></script>
-    <header>
+    <div class="conta"></div>
         <h1>RESOLUÇÃO DE EQUAÇÃO DO SEGUNDO GRAU</h1>
-    </header>
+<hr>
 
-    <main>
-    <input type="text" id="a" placeholder="Primeiro Número"><br>
-    <input type="text" id="b" placeholder="Segundo Número"><br> 
-    <input type="text" id="c" placeholder="Terceiro Número"><br> 
+    <input type="text" id="a" placeholder="Primeiro Número">
+    <p class="contaelementos"> x² + </p>
+    <input type="text" id="b" placeholder="Segundo Número"> 
+    <p class="contaelementos"> x + </p>
+    <input type="text" id="c" placeholder="Terceiro Número"> 
+    <p class="contaelementos"> = 0 </p>
+    </div>
 
     <button onclick="calcula()"> Calcular </button>
     <p>Resultado:<span id= "res"></span></p>
-        <span class="res" id="res"></span>
-    </main>
+        <span id="res"> </span>
 
-    
 </body>
 </html>
